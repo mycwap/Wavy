@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">WavyTest</string>
+    <string name="delete_phone_number">Delete Phone Number</string>
+    <string name="delete_failed">Delete Failed</string>
+    <string name="delete_success">"Delete Success"</string>
+    <string name="retry">Retry</string>
 </resources>
