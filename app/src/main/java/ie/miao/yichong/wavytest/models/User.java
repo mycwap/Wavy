@@ -13,6 +13,15 @@ public class User {
     private String profilePicture;
     private String phoneNumber;
 
+    public User(String id, String firstName, String lastName, String email, String profilePicture, String phoneNumber) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.profilePicture = profilePicture;
+        this.phoneNumber = phoneNumber;
+    }
+
     public String getId() {
         return id;
     }

@@ -13,7 +13,7 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 
 import ie.miao.yichong.wavytest.R;
-import ie.miao.yichong.wavytest.UnexpectedEjection;
+import ie.miao.yichong.wavytest.expections.UnexpectedException;
 import ie.miao.yichong.wavytest.interfaces.UserActivityInterface;
 import ie.miao.yichong.wavytest.models.User;
 import ie.miao.yichong.wavytest.presenters.UserActivityPresenter;
@@ -76,7 +76,7 @@ public class UserActivity extends AppCompatActivity implements UserActivityInter
                 } else {
 
                     //Report exception
-                    reportException(new UnexpectedEjection("User id is NULL"));
+                    reportException(new UnexpectedException("User id is NULL"));
 
                     showToast(getResources().getString(R.string.delete_failed));
                 }
@@ -103,6 +103,8 @@ public class UserActivity extends AppCompatActivity implements UserActivityInter
      * Set image into avatar and background
      */
     private void setImage(String url) {
+
+        //Load round image
         Glide.with(this).load(url).apply(RequestOptions.circleCropTransform()).into(userAvatar);
         Glide.with(this).load(url).into(background);
 

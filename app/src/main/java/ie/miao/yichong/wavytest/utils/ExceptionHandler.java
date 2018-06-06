@@ -7,7 +7,7 @@ package ie.miao.yichong.wavytest.utils;
 
 public class ExceptionHandler {
 
-    public static void ExceptionHandlerHandler(Throwable e){
-        //TODO report to server
+    public static void reportException(Throwable e){
+        //TODO report to server(May be use Firebase )
     }
 }
