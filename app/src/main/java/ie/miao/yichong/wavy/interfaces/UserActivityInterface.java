@@ -1,6 +1,6 @@
-package ie.miao.yichong.wavytest.interfaces;
+package ie.miao.yichong.wavy.interfaces;
 
-import ie.miao.yichong.wavytest.models.User;
+import ie.miao.yichong.wavy.models.User;
 
 /**
  * Author:   yichongmiao

@@ -1,4 +1,4 @@
-package ie.miao.yichong.wavytest.views;
+package ie.miao.yichong.wavy.views;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
@@ -12,13 +12,13 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 
-import ie.miao.yichong.wavytest.R;
-import ie.miao.yichong.wavytest.expections.UnexpectedException;
-import ie.miao.yichong.wavytest.interfaces.UserActivityInterface;
-import ie.miao.yichong.wavytest.models.User;
-import ie.miao.yichong.wavytest.presenters.UserActivityPresenter;
+import ie.miao.yichong.wavy.R;
+import ie.miao.yichong.wavy.expcetions.UnexpectedException;
+import ie.miao.yichong.wavy.interfaces.UserActivityInterface;
+import ie.miao.yichong.wavy.models.User;
+import ie.miao.yichong.wavy.presenters.UserActivityPresenter;
 
-import static ie.miao.yichong.wavytest.utils.ExceptionHandler.reportException;
+import static ie.miao.yichong.wavy.utils.ExceptionHandler.reportException;
 
 
 public class UserActivity extends AppCompatActivity implements UserActivityInterface {
@@ -77,7 +77,7 @@ public class UserActivity extends AppCompatActivity implements UserActivityInter
 
                     //Report exception
                     reportException(new UnexpectedException("User id is NULL"));
-
+                    deleteButton.setClickable(true);
                     showToast(getResources().getString(R.string.delete_failed));
                 }
             }

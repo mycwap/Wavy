@@ -1,4 +1,4 @@
-package ie.miao.yichong.wavytest;
+package ie.miao.yichong.wavy;
 
 import android.support.test.filters.LargeTest;
 import android.support.test.rule.ActivityTestRule;
@@ -9,8 +9,8 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import ie.miao.yichong.wavytest.models.User;
-import ie.miao.yichong.wavytest.views.UserActivity;
+import ie.miao.yichong.wavy.models.User;
+import ie.miao.yichong.wavy.views.UserActivity;
 
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.assertion.ViewAssertions.matches;
@@ -24,7 +24,6 @@ import static org.hamcrest.core.Is.is;
 /**
  * Instrumented test, which will execute on an Android device.
  *
- * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
 @RunWith(AndroidJUnit4.class)
 @LargeTest

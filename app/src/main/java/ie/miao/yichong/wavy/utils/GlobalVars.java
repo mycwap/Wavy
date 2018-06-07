@@ -1,8 +1,9 @@
-package ie.miao.yichong.wavytest.utils;
+package ie.miao.yichong.wavy.utils;
 
 /**
- * Created by jsntm on 22/06/2016.
- */
+ * Author:   yichongmiao
+ * CreateAt: 05/06/2018.
+ * */
 public class GlobalVars {
     public static String API_URL = "http://private-anon-6b0f0b15ce-test16231.apiary-mock.com/";//host ip
 

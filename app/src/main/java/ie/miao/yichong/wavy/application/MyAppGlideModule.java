@@ -1,4 +1,4 @@
-package ie.miao.yichong.wavytest.application;
+package ie.miao.yichong.wavy.application;
 
 import android.content.Context;
 import android.util.Log;
@@ -8,7 +8,8 @@ import com.bumptech.glide.annotation.GlideModule;
 import com.bumptech.glide.module.AppGlideModule;
 
 /**
- * Created by yichongmiao on 17/12/2017.
+ * Author:   yichongmiao
+ * CreateAt: 06/06/2018.
  *
  * Glide module
  * use to load picture

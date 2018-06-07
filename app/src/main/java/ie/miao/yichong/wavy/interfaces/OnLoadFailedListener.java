@@ -1,4 +1,4 @@
-package ie.miao.yichong.wavytest.interfaces;
+package ie.miao.yichong.wavy.interfaces;
 
 /**
  * Author:   yichongmiao

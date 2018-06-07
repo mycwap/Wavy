@@ -1,4 +1,4 @@
-package ie.miao.yichong.wavytest.utils;
+package ie.miao.yichong.wavy.utils;
 
 /**
  * Author:   yichongmiao

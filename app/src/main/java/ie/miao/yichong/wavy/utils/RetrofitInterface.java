@@ -1,11 +1,11 @@
-package ie.miao.yichong.wavytest.utils;
+package ie.miao.yichong.wavy.utils;
 
 import android.support.annotation.NonNull;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import ie.miao.yichong.wavytest.models.User;
+import ie.miao.yichong.wavy.models.User;
 import okhttp3.ResponseBody;
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
@@ -17,8 +17,9 @@ import rx.Observable;
 
 
 /**
- * Created by jsntm on 18/07/2016.
- */
+ * Author:   yichongmiao
+ * CreateAt: 05/06/2018.
+ * */
 public class RetrofitInterface {
 
 

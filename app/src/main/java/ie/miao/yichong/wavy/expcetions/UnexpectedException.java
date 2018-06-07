@@ -1,4 +1,4 @@
-package ie.miao.yichong.wavytest.expections;
+package ie.miao.yichong.wavy.expcetions;
 
 /**
  * Author:   yichongmiao

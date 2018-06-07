@@ -1,15 +1,15 @@
-package ie.miao.yichong.wavytest.presenters;
+package ie.miao.yichong.wavy.presenters;
 
-import ie.miao.yichong.wavytest.interfaces.UserActivityInterface;
-import ie.miao.yichong.wavytest.models.User;
+import ie.miao.yichong.wavy.interfaces.UserActivityInterface;
+import ie.miao.yichong.wavy.models.User;
 import okhttp3.ResponseBody;
 import rx.Subscriber;
 import rx.Subscription;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
-import static ie.miao.yichong.wavytest.utils.ExceptionHandler.reportException;
-import static ie.miao.yichong.wavytest.utils.RetrofitInterface.getRESTApiInterface;
+import static ie.miao.yichong.wavy.utils.ExceptionHandler.reportException;
+import static ie.miao.yichong.wavy.utils.RetrofitInterface.getRESTApiInterface;
 
 /**
  * Author:   yichongmiao

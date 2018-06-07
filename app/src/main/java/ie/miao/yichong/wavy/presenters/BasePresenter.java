@@ -1,11 +1,12 @@
-package ie.miao.yichong.wavytest.presenters;
+package ie.miao.yichong.wavy.presenters;
 
 import rx.Subscription;
 import rx.subscriptions.CompositeSubscription;
 
 /**
- * Created by yichongmiao on 01/05/2017.
- */
+ * Author:   yichongmiao
+ * CreateAt: 06/06/2018.
+ * */
 
 public class BasePresenter {
     //Addd all Subscription to CompositeSubscription. And unsubscribe all when destroy
