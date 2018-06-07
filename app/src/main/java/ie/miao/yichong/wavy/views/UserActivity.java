@@ -13,7 +13,7 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 
 import ie.miao.yichong.wavy.R;
-import ie.miao.yichong.wavy.expcetions.UnexpectedException;
+import ie.miao.yichong.wavy.exceptions.UnexpectedException;
 import ie.miao.yichong.wavy.interfaces.UserActivityInterface;
 import ie.miao.yichong.wavy.models.User;
 import ie.miao.yichong.wavy.presenters.UserActivityPresenter;

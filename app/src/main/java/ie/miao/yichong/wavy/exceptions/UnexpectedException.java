@@ -1,4 +1,4 @@
-package ie.miao.yichong.wavy.expcetions;
+package ie.miao.yichong.wavy.exceptions;
 
 /**
  * Author:   yichongmiao
